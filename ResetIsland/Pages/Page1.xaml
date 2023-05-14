@@ -6,7 +6,6 @@
       xmlns:local="clr-namespace:ResetIsland.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="280" d:DesignWidth="500"
-      FontFamily="pack://application:,,,/ResetIsland;component/Resources/#NotoSansSC-Medium.otf"
       Title="Page1">
 
     <Grid>
