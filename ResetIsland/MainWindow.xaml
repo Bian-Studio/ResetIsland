@@ -5,15 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ResetIsland"
         mc:Ignorable="d" WindowStyle="None" ResizeMode="CanResizeWithGrip"
-        AllowsTransparency="True" Background="Transparent"
         Title="MainWindow" Height="280" Width="500" MouseLeftButtonDown="Window_MouseLeftButtonDown"
-        MinHeight="280" MinWidth="500">
-    <Border Margin="5" Background="White" Opacity="0.5" CornerRadius="10">
-        <Border.Effect>
-            <DropShadowEffect BlurRadius="5" ShadowDepth="0" Opacity="0.5"
-                              Direction="0" Color="Gray"/>
-        </Border.Effect>
-        <Grid Margin="10">
+        MinHeight="280" MinWidth="500" Background="Transparent">
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0 1 0 0" CornerRadius="10"/>
+    </WindowChrome.WindowChrome>
+    <Border Background="Transparent"
+            BorderThickness="1" BorderBrush="Gray">
+        <Grid Margin="15">
             <Frame Source="Pages/Page1.xaml"/>
         </Grid>
     </Border>

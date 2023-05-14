@@ -16,14 +16,13 @@ using System.Windows.Shapes;
 namespace ResetIsland.Pages
 {
     /// <summary>
-    /// Page1.xaml 的交互逻辑
+    /// Page2.xaml 的交互逻辑
     /// </summary>
-    public partial class Page1 : Page
+    public partial class Page2 : Page
     {
-        public Page1()
+        public Page2()
         {
             InitializeComponent();
-
             this.Loaded += delegate
             {
                 // 时间同步任务

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Walterlv.Windows.Effects;
 
 namespace ResetIsland
 {
@@ -23,6 +24,8 @@ namespace ResetIsland
         public MainWindow()
         {
             InitializeComponent();
+            WindowAccentCompositor compositor = new WindowAccentCompositor(this);
+            compositor.Composite(Color.FromArgb(0x5e, 0xff, 0xff, 0xff));
         }
 
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
